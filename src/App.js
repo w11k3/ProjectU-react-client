@@ -1,9 +1,9 @@
-import UsersList from './components/UsersList';
-import CreateUser from './components/CreateUser';
+import UsersList from './components/user/UsersList';
+import CreateUser from './components/user/CreateUser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
-import RetriveUser from './components/RetrieveUser';
+import RetriveUser from './components/user/RetrieveUser';
 
 // eslint-disable-next-line
 const App = () => {
